@@ -1,0 +1,31 @@
+.list_card {
+    list-style-type:none;
+}
+.aside_card {
+    float: left;
+    background-color: white;
+    height: 600px;
+    padding: 30px;
+    position: relative;
+    left: 30px;
+    top: 150px;
+}
+.header_card {
+    padding: 5px;
+    background-color:darkgray;
+    width: 1000px;
+    position: fixed;
+}
+p {
+    background-color: darkgray;
+    width: 700px;
+    margin-left: 150px;
+}
+.address_card {
+    position: relative;
+    left: 150px;
+    top: 150px;
+}
+body {
+    background-color: bisque;
+}
