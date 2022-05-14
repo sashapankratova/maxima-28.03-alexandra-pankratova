@@ -1,31 +1,38 @@
-.list_card {
+.list {
     list-style-type:none;
 }
-.aside_card {
+.aside {
     float: left;
-    background-color: white;
     height: 600px;
     padding: 30px;
     position: relative;
     left: 30px;
     top: 150px;
+    
 }
-.header_card {
+.header {
     padding: 5px;
-    background-color:darkgray;
+    background-color: rgb(167, 148, 125);
+    border-radius: 15px;
     width: 1000px;
     position: fixed;
 }
-p {
-    background-color: darkgray;
-    width: 700px;
+.letter {
+    background-color: rgb(167, 148, 125);
+    border-radius: 15px;
+    width: 500px;
     margin-left: 150px;
+    position: sticky;
+    top: 0px;
 }
-.address_card {
+.address {
     position: relative;
     left: 150px;
     top: 150px;
 }
 body {
-    background-color: bisque;
+    background: -webkit-linear-gradient(45deg, rgb(223, 218, 199), rgb(157, 129, 107));
+    background: -moz-linear-gradient(45deg, rgb(223, 218, 199), rgb(157, 129, 107));
+    background: linear-gradient(45deg, rgb(223, 218, 199), rgb(157, 129, 107));
+    height: 100%;
 }
